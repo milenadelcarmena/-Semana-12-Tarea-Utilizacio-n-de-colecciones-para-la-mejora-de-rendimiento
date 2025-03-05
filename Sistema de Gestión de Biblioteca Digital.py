@@ -163,7 +163,7 @@ if __name__ == "__main__":
     biblioteca.prestar_libro(libro2.isbn, usuario2.id_usuario)
 
     # Listar libros prestados
-    print("\nLibros prestados a Juan Pérez:")
+    print("\nLibros prestados a Rogelio Alvarado:")
     for libro in biblioteca.listar_libros_prestados(usuario1.id_usuario):
         print(libro)
 
